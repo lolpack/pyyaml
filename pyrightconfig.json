@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/pyright/main/packages/vscode-pyright/schemas/pyrightconfig.schema.json",
+    "include": [
+        "lib/yaml",
+    ],
+    "typeCheckingMode": "strict",
+    // Leave "type: ignore" comments to mypy
+    "enableTypeIgnoreComments": false,
+    // GET BASIC TYPE CHECKING MODE TO PASS
+    "reportAttributeAccessIssue": "none",
+    "reportArgumentType": "none",
+    "reportOptionalMemberAccess": "warning",
+    "reportCallIssue": "warning",
+    "reportOptionalCall": "warning",
+    "reportOperatorIssue": "warning",
+    "reportGeneralTypeIssues": "warning",
+    "reportOptionalSubscript": "warning",
+    // GET STRICT MODE TO PASS
+    "reportMissingParameterType": "none",
+    "reportUnknownMemberType": "none",
+    "reportUnknownParameterType": "none",
+    "reportUnknownArgumentType": "none",
+    "reportUnknownVariableType": "none",
+    "reportPrivateUsage": "warning",
+    "reportIncompatibleMethodOverride": "warning",
+    "reportUnusedVariable": "warning",
+    "reportUnnecessaryComparison": "warning",
+    "reportPossiblyUnboundVariable": "warning",
+    "reportOperatorIssue": "warning",
+    "reportUnnecessaryIsInstance": "warning",
+    "reportMissingModuleSource": "warning",
+    "reportOptionalSubscript": "warning",
+}
