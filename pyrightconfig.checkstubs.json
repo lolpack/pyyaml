@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/pyright/main/packages/vscode-pyright/schemas/pyrightconfig.schema.json",
+    "include": [
+        // JUST CHECK STUBS
+        "lib/yaml/*.pyi",
+    ],
+    "typeCheckingMode": "strict",
+    // Leave "type: ignore" comments to mypy
+    "enableTypeIgnoreComments": false,
+    // GET STRICT MODE TO PASS
+    "reportMissingParameterType": "none",
+    "reportUnknownParameterType": "none",
+    "reportPrivateUsage": "warning",
+    "reportIncompatibleMethodOverride": "warning",
+}
